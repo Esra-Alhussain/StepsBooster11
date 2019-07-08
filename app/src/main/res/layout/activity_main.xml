@@ -43,7 +43,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/mRegister"
         android:layout_width="117dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
@@ -52,7 +52,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Registrt"
+        android:text="Register"
+        android:onClick="mRegister1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.118"
@@ -61,7 +62,7 @@
         app:layout_constraintVertical_bias="0.761" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/mSignIn"
         android:layout_width="123dp"
         android:layout_height="49dp"
         android:layout_marginStart="8dp"
